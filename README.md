@@ -6,7 +6,9 @@ Any questions or feedback are welcome. Feel free to modify and repurpose the app
 
 
 
-libraries required for the app. So ensure that they are installed. Some are directly from CRAN and others are to be installed via BiocManager from Bioconductor.
+This app was developed in a docker container of a modified rocker/rstudio (R-version:3.6.1 and RStudio-version:1.2.1335) image [described here](https://hub.docker.com/r/rocker/rstudio/) [and here](https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image) running on a Ubuntu 18.04LTS. Perhaps at another point I will put up a dockerfile for the image/container with a full working version so as to minimize the installations of libraries and packages required. Also it is very possible to make this into a portable app using Electron, Shiny, and R; see [here](https://github.com/ksasso/Electron_ShinyApp_Deployment), [here](https://github.com/dirkschumacher/r-shiny-electron), [and here](https://www.travishinkelman.com/project/dsm2-viz-tool/). 
+
+Here are the libraries required for the app. So ensure that they are installed. Some are directly from CRAN and others are to be installed via BiocManager from Bioconductor.
 ## From CRAN
 example:
 `install.packages("shiny")`
