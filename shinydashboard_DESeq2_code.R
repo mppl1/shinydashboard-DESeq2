@@ -248,15 +248,17 @@ ui <- dashboardPage(
               ),
               
               fluidRow(
+                br("sometimes the heatmap is not rendered. The workaround is to adjust width of the window "),
                
                   plotOutput("plot5", height = 400)
                
               ),
               fluidRow(
                 
-                  plotOutput("plot6", height = 500)
-                
+                  plotOutput("plot6", height = 500),
+                  br("In order to minimize the gene names displayed increase the L2FC from 1 to 2 and or adjust the P-value")        
               ),
+              
               fluidRow(plotOutput("plot7", height = 600))
               
       ),
