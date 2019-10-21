@@ -6,12 +6,16 @@ Any questions or feedback are welcome. Feel free to modify and repurpose the app
 
 
 
-libraries required for the app. So ensure that they are installed. Some are directly from CRAN and others are to be installed via
+libraries required for the app. So ensure that they are installed. Some are directly from CRAN and others are to be installed via BiocManager from Bioconductor.
 ## From CRAN
+example:
 install.packages("shiny")
 
 ## From Bioconductor
+example:
+
 if (!requireNamespace("BiocManager", quietly = TRUE))
+    
     install.packages("BiocManager")
 
 BiocManager::install("DESeq2")
@@ -30,31 +34,12 @@ library(DT)
 library(tidyr)
 
 OTHER ATTACHED PACKAGES
-jsonlite_1.6   
-Matrix_1.2-17 
-flexdashboard_0.5.1.1 
-viridisLite_0.3.0  
-DT_0.9 shinyjs_1.0  
-shinydashboard_0.7.1 
-shiny_1.4.0 
-ggfortify_0.4.7 
-data.table_1.12.4 
-tidyr_1.0.0  
-ggrepel_0.8.1   
-dplyr_0.8.3  
-magrittr_1.5  
-scales_1.0.0 
-pheatmap_1.0.12 
-DESeq2_1.24.0 
-SummarizedExperiment_1.14.1 
-DelayedArray_0.10.0  
-BiocParallel_1.18.1 
-matrixStats_0.55.0  
-Biobase_2.44.0 
-GenomicRanges_1.36.1 
-GenomeInfoDb_1.20.0 
-IRanges_2.18.3  
-S4Vectors_0.22.1  
-BiocGenerics_0.30.0  
-RColorBrewer_1.1-2          
-ggplot2_3.2.1              
+jsonlite_1.6    Matrix_1.2-17      viridisLite_0.3.0    DT_0.9  
+ shiny_1.4.0    shinyjs_1.0     shinydashboard_0.7.1    
+ggfortify_0.4.7     data.table_1.12.4       tidyr_1.0.0  
+ggrepel_0.8.1       dplyr_0.8.3     magrittr_1.5  
+DESeq2_1.24.0         pheatmap_1.0.12     
+SummarizedExperiment_1.14.1     DelayedArray_0.10.0     BiocParallel_1.18.1 
+matrixStats_0.55.0      Biobase_2.44.0 
+GenomicRanges_1.36.1    GenomeInfoDb_1.20.0     IRanges_2.18.3      BiocGenerics_0.30.0 
+S4Vectors_0.22.1    RColorBrewer_1.1-2          ggplot2_3.2.1    scales_1.0.0          
