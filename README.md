@@ -52,5 +52,13 @@ RColorBrewer_1.1-2      ggplot2_3.2.1           scales_1.0.0
 
 ```
 
+Below are screenshots of working app
+# Exploratory Data Analysis screenshots
+![EDA image1](https://github.com/mppl1/shinydashboard-DESeq2/blob/master/EDA1.png)
+![EDA image2](https://github.com/mppl1/shinydashboard-DESeq2/blob/master/EDA2.png)
 
-![Exploratory Data Analysis images]()
+# After differential expression analysis using Wald test
+![Wald test]()https://github.com/mppl1/shinydashboard-DESeq2/blob/master/Waldtest.png
+# Adjusting L2FC and P-value to narrow genes
+![cut off tables and MA plots](https://github.com/mppl1/shinydashboard-DESeq2/blob/master/narrow_genes1.png)
+![heatmap and volcano plots](https://github.com/mppl1/shinydashboard-DESeq2/blob/master/narrow_genes2.png)
